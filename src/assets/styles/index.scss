@@ -1,0 +1,33 @@
+@import 'fonts';
+@import 'libs';
+@import 'vars';
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  background-color: #fbfbfb;
+  overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
